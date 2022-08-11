@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root{
+	padding: 0px;
+	margin: 0px;
+}
+
+#pin{
+    display: block;
+    width: 81%;
+    position: absolute;
+    left: 15.5%;
+    top: 126.9vw;
+    filter: drop-shadow(0 0 0.5px rgba(0,0,0,0.1));
+	
+}

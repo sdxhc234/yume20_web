@@ -1,0 +1,106 @@
+/* CSS Document */
+
+:root{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px ;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 200px ;
+	height:100vh;
+	width:100vw;
+	overflow: hidden;
+
+}
+.content{
+	display: flex;
+	align-items: flex-end;
+	
+}
+.messageBox{
+    margin-bottom: 250px;
+	
+}
+.title{
+    display: block;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 0 3px rgba(0,0,0,0.72);
+	text-size:35px;
+	overflow: hidden;
+	transition: 150ms;
+	
+}
+
+.button{
+    font-weight: 700;
+    font-size: 35px;
+    color: rgba(229,229,229,1.00);
+    text-shadow: 0 0 3px rgba(0,0,0,0.72);
+}
+.place{
+	transform: scale(1.2,1.2);
+	width: 100vw;
+	height:100vh;
+	object-fit: cover;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	transition: 200px;
+
+}
+.imgHolder{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+div{
+	display: block;
+}
+/*animation class*/
+.fadeout{
+	animation: fadeOut 0.5s ease-in-out 0s 1 normal forwards;
+}
+.fadein{
+	animation: fadeIn 0.5s ease-in-out 0s 1 normal forwards;
+}
+.zoomout{
+	animation: zoomOut 6s ease-in-out 0s 1 normal forwards;
+}
+.slide{
+	animation: slideAni 3s ease 0.3s infinite normal none;
+}
+@keyframes zoomOut {
+	0% {transform: scale(1.2,1.2)}
+	100%{transform: scale(1,1)}
+}
+@keyframes fadeIn {
+	0%{opacity:0}
+	100%{opacity:1}
+}
+@keyframes fadeOut {
+	0%{opacity:1}
+	100%{opacity:0}
+}
+@keyframes slideAni{
+	0%{transform: translateX(0%)}
+	50%{transform: translateX(10%)}
+	100%{transform: translateX(0%)}
+	
+}
+@media (max-width: 768px){
+
+body{
+
+	padding: 0px 0px 0px 50px ;
+	
+}
+	
+	.messageBox{
+	margin-bottom:350px;
+	}
+
+
+}

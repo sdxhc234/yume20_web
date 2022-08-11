@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root{
+	padding: 0 0 0 0;
+	margin:0 0 0 0;
+	font-family: 'Noto Sans JP', sans-serif;
+	color:white;
+}
+body{
+	height:100vh;
+	width: 100%;
+   	padding: 0px 0px 0px 0px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-shadow: 0 0 6px rgba(10,10,10,0.72);
+	background-size: cover;
+    margin-top: 0px;
+	display: table-cell;
+	vertical-align:middle;
+	overflow: hidden;
+	padding: 5px 10px 5px 10px;
+		user-select: none
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* Internet Explorer */
+-khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+-webkit-user-select: none; /* Chrome, Safari, and Opera */
+-webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+.blue{
+	background: -webkit-linear-gradient(332deg, rgba(34,189,195,0.5270483193277311) 0%, rgba(15,60,153,0.34217436974789917) 100%);
+	background: -o-linear-gradient(332deg, rgba(34,189,195,0.5270483193277311) 0%, rgba(15,60,153,0.34217436974789917) 100%);
+	background: linear-gradient(62deg, rgba(34,189,195,0.5270483193277311) 0%, rgba(15,60,153,0.34217436974789917) 100%);
+}
+.red{
+	background:-webkit-linear-gradient(332deg, rgba(195,34,34,0.5270483193277311) 0%, rgba(237,247,61,0.34217436974789917) 100%);
+	background:-o-linear-gradient(332deg, rgba(195,34,34,0.5270483193277311) 0%, rgba(237,247,61,0.34217436974789917) 100%);
+	background:linear-gradient(62deg, rgba(195,34,34,0.5270483193277311) 0%, rgba(237,247,61,0.34217436974789917) 100%);
+}
+.green{
+	background: -webkit-linear-gradient(242deg, rgba(34,195,99,0.5270483193277311) 0%, rgba(45,253,198,0.34217436974789917) 100%);
+	background: -o-linear-gradient(242deg, rgba(34,195,99,0.5270483193277311) 0%, rgba(45,253,198,0.34217436974789917) 100%);
+	background: linear-gradient(332deg, rgba(34,195,99,0.5270483193277311) 0%, rgba(45,253,198,0.34217436974789917) 100%);
+}
+.other{
+background: -webkit-linear-gradient(332deg, rgba(37,50,91,0.5270483193277311) 0%, rgba(89,107,107,0.48736589362307425) 100%);
+background: -o-linear-gradient(332deg, rgba(37,50,91,0.5270483193277311) 0%, rgba(89,107,107,0.48736589362307425) 100%);
+background: linear-gradient(62deg, rgba(37,50,91,0.5270483193277311) 0%, rgba(89,107,107,0.48736589362307425) 100%);
+}
+h2{
+    font-weight: 700;
+    font-size: 20px;
+	margin:0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+   
+
+}
+p{
+	font-weight: 400;
+	font-size:13px;
+	margin:0px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+    
+}
